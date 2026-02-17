@@ -1,0 +1,28 @@
+div {
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+}
+.cube {
+  background: green;
+}
+.box {
+  background: blue;
+}
+
+nav {
+  display: inline;
+  border: 1px solid #f00;
+}
+span {
+  display: block;
+  border: 1px solid #000;
+}
+
+#box1{
+    border: 10px solid #11a;
+}
+
+*{
+    
+}
