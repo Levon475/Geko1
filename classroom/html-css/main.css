@@ -1,28 +1,11 @@
 div {
-  border: 1px solid #000;
-  width: 100px;
-  height: 100px;
+  border: 3Px solid #000;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border-right: 0;
+  border-top: 0 ;
 }
-.cube {
-  background: green;
-}
-.box {
-  background: blue;
-}
-
-nav {
-  display: inline;
-  border: 1px solid #f00;
-}
-span {
-  display: block;
-  border: 1px solid #000;
-}
-
-#box1{
-    border: 10px solid #11a;
-}
-
-*{
-    
+#circle{
+  border-bottom-left-radius: 1200px; 
 }

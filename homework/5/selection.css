@@ -2,8 +2,9 @@ nav {
   border: 10px dashed #ff0000;
 }
 header{
-    padding: 20%;
+    padding: 20px;
     background-color: aqua;
+    margin: 10px auto;
 }
 a{
     border: 3px solid #6764e7 ;
