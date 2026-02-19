@@ -1,0 +1,23 @@
+nav {
+  border: 10px dashed #ff0000;
+}
+header{
+    padding: 20%;
+    background-color: aqua;
+}
+a{
+    border: 3px solid #6764e7 ;
+}
+._blank{
+    border: 2px dashed  color rgb(6, 255, 18);
+}
+.card{
+    border: 20px color red;
+    width: 150px;
+    margin: 120px ;
+    padding: 25%;border-radius: 15%;
+    border-radius: 25%;
+}
+input{
+    background-color: blue;
+}
