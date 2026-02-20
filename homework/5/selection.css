@@ -1,24 +1,51 @@
-nav {
-  border: 10px dashed #ff0000;
-}
 header{
-    padding: 20px;
-    background-color: aqua;
+    padding: 40px;
+    top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    background-color: rgb(218, 169, 129);
+    background-size: 30px;
     margin: 10px auto;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+nav {
+  border: 3px solid #020202;
 }
 a{
-    border: 3px solid #6764e7 ;
+    color: black;
+    text-decoration: none;
 }
-._blank{
-    border: 2px dashed  color rgb(6, 255, 18);
+a[target="_blank"]{
+    color: red;
 }
-.card{
-    border: 20px color red;
-    width: 150px;
-    margin: 120px ;
-    padding: 25%;border-radius: 15%;
-    border-radius: 25%;
+section.card{
+    border: solid 2px rgb(218, 169, 129);
+    width: 15px;
+    margin: 250px auto ;
+    padding: 100px;
+    position: static;
+    transform: translate(50px,50px);
+    border-radius: 20px 20px 20px 20px;
+}
+section[data-type="regular" ]{
+    margin: 200px auto;
+}
+section[data-type="featured" ]{
+    border-color: rgb(255, 115, 0); ;
 }
 input{
     background-color: blue;
+}
+input[ type="password"]{
+    background-color: red;
+}
+button[type="submit"]{
+    padding: 10px;
+    border: solid black;
+}
+
+button:hover {
+    color: red;
 }
