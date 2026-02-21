@@ -1,0 +1,184 @@
+div{
+    border: 3px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.mek{
+    position: absolute;
+    transform: translate(500px);
+    margin: 200px auto;
+}
+.erku{
+    position: absolute;
+    margin: 200px;
+    transform: translate(405px);
+}
+.ereq{
+    position: absolute;
+    margin: 305px;
+    transform: translate(300px);
+}
+.chors{
+    position: absolute;
+    margin: 305px;
+    transform: translate(195px);
+}
+.hing{
+    position: absolute;
+    margin: 255px;
+    transform: translate(295px);
+    background-color: red;
+}
+.arajin{
+    border: 1px solid #000;
+    width:  150px;
+    height: 300px;
+    position: absolute;
+    margin: 200px;
+    transform: translate(-25px);
+    background-color: green;
+}
+.erkrord{
+  position: absolute;  
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid green;
+  margin: 100px;
+}
+#mek{
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    transform: translate(500px,50px);
+}
+#erku{
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    transform: translate(610px,50px);
+}
+#ereq{
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 195, 255);
+    position: absolute;
+    transform: translate(500px,160px);
+}
+#chors{
+    border: 3px solid #000;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(610px,160px);
+}
+#hing{
+    border: 3px solid #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: yellow;
+    transform: translate(635px,210px);
+}
+.shrjanner{
+    transform: translate(500px,500px);
+}
+.uxxankyunner{
+    transform: translate(400px,600px);
+}
+.uxx2{
+    border: 3px solid #000;
+    width: 200px;
+    height: 80px;
+    border-color: green;
+    position: absolute;
+    transform: translate(0px,-330px);
+}
+.uxx1{
+    border: 3px solid #000;
+    width: 100px;
+    height: 200px;
+}
+.uxx3{
+    border: 3px solid #000;
+    width: 95px;
+    height: 95px;
+    border-color: yellow;
+    position: absolute;
+    transform: translate(105px,-245px);
+}
+.uxx4{
+    border: 3px solid #000;
+    width: 100px;
+    height: 180px;
+    border-color: red;
+    position: absolute;
+    transform: translate(205px,-330px);
+}
+.uxx5{
+    border: 3px solid #000;
+    width: 200px;
+    height: 100px;
+    border-color: rgb(0, 247, 255);
+    position: absolute;
+    transform: translate(105px,-145px);
+}
+.kis{
+    transform: translate(1000px,00px);
+}
+.kisashrjan1{
+    border: 3px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(105px,0px);
+    border-right: 0;
+    border-top: 0;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.kisashrjan2{
+    border: 3px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(107px,103px);
+    border-right: 0;
+    border-bottom: 0;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.kisashrjan3{
+    border: 3px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(5px,105px);
+    border-left: 0;
+    border-bottom: 0;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+.kisashrjan4{
+    border: 5px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    border-left: 0;
+    border-top: 0;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
