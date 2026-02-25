@@ -1,0 +1,38 @@
+body{
+    background-color: #6592CF;
+    margin-top: 100px;
+
+}
+.one{
+    border: 1px solid #EEB850;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EEB850;
+    position: absolute;
+    transform: translate(350px,150px);
+}
+.two{
+    border: 1px solid #243D83;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #243D83;
+    position: absolute;
+    transform: translate(200px);
+}
+.three{
+    border: 1px solid #243D83;
+    width: 100px;
+    height: 400px;
+    background-color: #243D83;
+    position: absolute;
+}
+.for{
+    border: 1px solid #243D83;
+    width: 100px;
+    height: 400px;
+    background-color: #243D83;
+    position: absolute;
+    transform: translate(700px);
+}

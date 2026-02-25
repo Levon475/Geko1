@@ -1,0 +1,13 @@
+ body{
+    margin: 0;
+    background-color: #5d3a3a;
+    background-size: 400px x 300px;
+ }
+ 
+ div {
+    border: 3px solid  #b5e0ba;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+  }
