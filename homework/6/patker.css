@@ -143,8 +143,8 @@ div{
     transform: translate(105px,0px);
     border-right: 0;
     border-top: 0;
-    border-bottom-right-radius: 3px;
-    border-top-left-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 .kisashrjan2{
     border: 3px solid #000;

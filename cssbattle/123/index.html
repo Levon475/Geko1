@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        height: 300px;
+        background-color: #c74e4e;
+        display: flex;
+        flex-direction: column;
+        padding: 90px;
+        gap: 5px;
+        
+    }
+      .col{
+        width: 20px;
+        height: 20px;
+        background-color: #E0E246;
+        border-radius: 5px;
+      }
+      .col1{
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+        border-radius: 50%;
+      }
+      .row1{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+      }
+      .row2{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: end;
+      }
+      .row3{
+        display: flex;
+        gap: 5px;
+      }
+      .inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row1">
+          <div class="col1"></div>
+          <div class="inner">
+
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+      </div>
+      <div class="row2">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row3">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </body>
+</html>
