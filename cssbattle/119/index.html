@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        height: 300px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+
+      .pacman {
+        border: 30px solid #e0e246;
+        border-right: 30px solid transparent;
+        border-radius: 50%;
+      }
+
+      .patronner {
+        display: flex;
+        gap: 20px;
+      }
+
+      .patron {
+        background: #fff;
+        width: 10px;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+      }
+      .tshnami {
+        width: 60px;
+        aspect-ratio: 1/1;
+        background-color: #c74e4e;
+        border-radius: 50% 50% 0 0;
+        display: flex;
+      }
+      .kotosh {
+        border-width: 0 10px 10px 10px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="pacman"></div>
+      <div class="patronner">
+        <div class="patron"></div>
+        <div class="patron"></div>
+        <div class="patron"></div>
+      </div>
+      <div class="tshnami">
+        <div class="kotosh"></div>
+        <div class="kotosh"></div>
+        <div class="kotosh"></div>
+      </div>
+    </div>
+  </body>
+</html>

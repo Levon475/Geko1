@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: #3f4869;
+      }
+
+      .klor {
+        width: 180px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        translate: 0 -50%;
+      }
+      .k1 {
+        background: #f4da64;
+        left: 60px;
+      }
+      .k2 {
+        background: #e25c57;
+        right: 60px;
+      }
+      .k3 {
+        background: linear-gradient(transparent 50%, #f4da64 50%);
+        left: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="klor k1"></div>
+      <div class="klor k2"></div>
+      <div class="klor k3"></div>
+    </div>
+  </body>
+</html>
