@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px solid #000;
+  width: 90%;
+  height: 90vh;
+  display: grid;
+  background-color: #2b3043;
+  grid-template-columns: 2fr 1fr 1fr ;
+  grid-template-rows:  1fr 2fr 1fr;
+  padding: 20px;
+  gap: 10px 10px;
+}
+
+.grid1 {
+  background: #FEA062;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid2 {
+  background: #35DABA;
+  grid-area: 1 / 2 / 2 / 4;
+}
+
+.grid3 {
+  background: #FD6057;
+  grid-area: 2 / 1 / 4 / 2;
+}
+
+.grid4 {
+  background: #5E844B;
+  grid-area: 2 / 2 / 4 / 4;
+}
+
+.grid5 {
+  background: #35DABA;
+  grid-area: 2 / 2 / 3 / 4;
+  
+}
+.grid6 {
+  background: #1CC1A1;
+  grid-area: 3 / 2 / 4 / 3;
+}
+.grid7 {
+  background: #FEA062;
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+
