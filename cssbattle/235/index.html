@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        height: 300px;
+        background-color: #fdffe9;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+        padding: 20px 20px;
+        gap: 10px 10px;
+      }
+      .g1 {
+        background-color: #adb274;
+        grid-area: 1/1/2/3;    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        padding: 10px;  
+      }
+      .g2 {
+        background-color: #adb274;
+        grid-area: 2/1/-2/2;
+      }
+      .g3 {
+        background-color: #adb274;
+        grid-area: 2/2/3/3;
+      }
+        .g4 {
+        background-color: #adb274;
+        grid-area: 3/2/4/-1;
+      }
+         .g5 {
+        background-color: #adb274;
+        grid-area: 4/2/5/-1;
+      }
+         .g6 {
+        background-color: #adb274;
+        grid-area: -2/1/-1/-1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .g7{
+        width: 20px;
+        height: 20px;
+        background-color: #555A2A;
+        /* position: absolute; */
+        /* transform: translate(10px,5px); */
+
+      }
+      .g8{
+        width: 20px;
+        height: 20px;
+        background-color: #555A2A;
+        /* position: absolute; */
+        /* transform: translate(320px); */
+      }
+         .g9{
+        width: 20px;
+        height: 20px;
+        background-color: #555A2A;
+      }
+         .g10{
+        width: 20px;
+        height: 20px;
+        background-color: #555A2A;
+      }
+         .g11{
+        width: 20px;
+        height: 20px;
+        background-color: #555A2A;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="g1"> <div class="g7"></div>  <div class="g8"></div> </div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="g5"></div>
+      <div class="g6">
+      <div class="g9"></div>
+      <div class="g10"></div>
+      <div class="g11"></div>
+     </div>
+    </div>
+  </body>
+</html>
