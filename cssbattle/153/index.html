@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e3516e;
+      }
+      .greed {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+      }
+      .g1 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 1/1/2/2;
+      }
+      .g2 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 1/2/2/3;
+        position: absolute;
+        transform: translate(50px, 15px);
+      }
+      .g3 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 1/3/2/4;
+      }
+      .g4 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 1/4/2/5;
+        position: absolute;
+        transform: translate(132px, 15px);
+      }
+      .g5 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 1/5/2/5;
+      }
+      .g6 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 2/1/3/2;
+        position: absolute;
+        transform: translate(10px, 55px);
+      }
+      .g7 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 2/2/3/3;
+      }
+      .g8 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 2/3/3/3;
+        position: absolute;
+        transform: translate(93px, 55px);
+      }
+      .g9 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 2/4/3/4;
+      }
+      .g10 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 2/5/3/4;
+        position: absolute;
+        transform: translate(175px, 55px);
+      }
+      .g11 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 3/1/4/2;
+      }
+      .g12 {
+        width: 40px;
+        height: 40px;
+        background-color: #e3516e;
+        grid-area: 3/2/4/3;
+      }
+      .g13 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 3/3/4/3;
+      }
+      .g14 {
+        width: 40px;
+        height: 40px;
+        background-color: #e3516e;
+        grid-area: 3/4/4/4;
+      }
+      .g15 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 3/5/4/5;
+      }
+      .g16 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 4/1/5/2;
+        position: absolute;
+        transform: translate(10px, 135px);
+      }
+      .g17 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 4/2/5/3;
+      }
+      .g18 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 4/3/5/4;
+        position: absolute;
+        transform: translate(90px, 135px);
+      }
+      .g19 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 4/4/5/5;
+      }
+      .g20 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 4/5/5/6;
+        position: absolute;
+        transform: translate(173px, 135px);
+      }
+      .g21 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 5/1/6/2;
+      }
+      .g22 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 5/2/6/3;
+        position: absolute;
+        transform: translate(50px, 175px);
+      }
+      .g23 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 5/3/6/4;
+      }
+      .g24 {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fade8b;
+        grid-area: 5/4/6/5;
+        position: absolute;
+        transform: translate(130px, 175px);
+      }
+      .g25 {
+        width: 40px;
+        height: 40px;
+        background-color: #fade8b;
+        grid-area: 5/5/6/6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="greed">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="g6"></div>
+        <div class="g7"></div>
+        <div class="g8"></div>
+        <div class="g9"></div>
+        <div class="g10"></div>
+        <div class="g11"></div>
+        <div class="g12"></div>
+        <div class="g13"></div>
+        <div class="g14"></div>
+        <div class="g15"></div>
+        <div class="g16"></div>
+        <div class="g17"></div>
+        <div class="g18"></div>
+        <div class="g19"></div>
+        <div class="g20"></div>
+        <div class="g21"></div>
+        <div class="g22"></div>
+        <div class="g23"></div>
+        <div class="g24"></div>
+        <div class="g25"></div>
+      </div>
+    </div>
+  </body>
+</html>
