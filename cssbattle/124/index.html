@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        background-color: #071945;
+        padding: 30px;
+      }
+      .g1 {
+        width: 50px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+      }
+      .g2 {
+        width: 50px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(90px);
+      }
+      .g3 {
+        width: 50px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(190px);
+      }
+      .g4 {
+        width: 50px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(280px);
+      }
+      .g5 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(-10px, 10px);
+      }
+      .g6 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(50px, 10px);
+      }
+      .g7 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(80px, 10px);
+      }
+      .g8 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(140px, 10px);
+      }
+      .g9 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(180px, 10px);
+      }
+      .g10 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(240px, 10px);
+      }
+      .g11 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(270px, 10px);
+      }
+      .g12 {
+        width: 10px;
+        height: 10px;
+        background-color: #b069f7;
+        position: absolute;
+        transform: translate(330px, 10px);
+      }
+      .g13 {
+        width: 50px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(0px, 50px);
+      }
+      .g14 {
+        width: 50px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(90px, 50px);
+      }
+      .g15 {
+        width: 50px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(190px, 50px);
+      }
+      .g16 {
+        width: 50px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(280px, 50px);
+      }
+      .g17 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(270px, 60px);
+      }
+      .g18 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(330px, 60px);
+      }
+      .g19 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(240px, 60px);
+      }
+      .g20 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(180px, 60px);
+      }
+      .g21 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(140px, 60px);
+      }
+      .g22 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(80px, 60px);
+      }
+      .g23 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(50px, 60px);
+      }
+      .g24 {
+        width: 10px;
+        height: 10px;
+        background-color: #f8da37;
+        position: absolute;
+        transform: translate(-10px, 60px);
+      }
+      .g25 {
+        width: 10px;
+        height: 10px;
+        background-color: #2ce1ea;
+        position: absolute;
+        transform: translate(160px, 140px);
+      }
+      .g26 {
+        width: 10px;
+        height: 10px;
+        background-color: #2ce1ea;
+        position: absolute;
+        transform: translate(160px, 180px);
+      }
+      .g27 {
+        width: 10px;
+        height: 30px;
+        background-color: #2ce1ea;
+        position: absolute;
+        transform: translate(160px, 225px);
+      }
+      .g28 {
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 40px solid #2ce1ea;
+        position: absolute;
+        transform: translate(135px, 230px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="g5"></div>
+      <div class="g6"></div>
+      <div class="g7"></div>
+      <div class="g8"></div>
+      <div class="g9"></div>
+      <div class="g10"></div>
+      <div class="g11"></div>
+      <div class="g12"></div>
+      <div class="g13"></div>
+      <div class="g14"></div>
+      <div class="g15"></div>
+      <div class="g16"></div>
+      <div class="g17"></div>
+      <div class="g18"></div>
+      <div class="g19"></div>
+      <div class="g20"></div>
+      <div class="g21"></div>
+      <div class="g22"></div>
+      <div class="g23"></div>
+      <div class="g24"></div>
+      <div class="g25"></div>
+      <div class="g26"></div>
+      <div class="g27"></div>
+      <div class="g28"></div>
+    </div>
+  </body>
+</html>
