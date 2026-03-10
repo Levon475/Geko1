@@ -5,48 +5,48 @@ body {
 }
 .container {
   border: 1px solid #000;
-  width: 90%;
+  aspect-ratio: 2/1;
   height: 90vh;
   display: grid;
   background-color: #2b3043;
-  grid-template-columns: 2fr 1fr 1fr ;
-  grid-template-rows:  1fr 2fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   padding: 20px;
   gap: 10px 10px;
 }
 
 .grid1 {
-  background: #FEA062;
+  background: #fea062;
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .grid2 {
-  background: #35DABA;
+  background: #35daba;
   grid-area: 1 / 2 / 2 / 4;
 }
 
 .grid3 {
-  background: #FD6057;
+  background: #fd6057;
   grid-area: 2 / 1 / 4 / 2;
 }
 
 .grid4 {
-  background: #5E844B;
+  background: #5e844b;
   grid-area: 2 / 2 / 4 / 4;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .grid5 {
-  background: #35DABA;
-  grid-area: 2 / 2 / 3 / 4;
-  
+  background: #35daba;
+  grid-column: span 2;
 }
 .grid6 {
-  background: #1CC1A1;
-  grid-area: 3 / 2 / 4 / 3;
+  background: #1cc1a1;
 }
 .grid7 {
-  background: #FEA062;
-  grid-area: 3 / 3 / 4 / 4;
+  background: #fea062;
 }
-
-
