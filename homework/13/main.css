@@ -1,0 +1,58 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 1px solid #000;
+  height: 90vmin;
+  width: 90vmin;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+.g2,
+.g4,
+.g6,
+.g8,
+.g9,
+.g11,
+.g13,
+.g15,
+.g18,
+.g20,
+.g22,
+.g24,
+.g25,
+.g27,
+.g29,
+.g31,
+.g34,
+.g36,
+.g38,
+.g40,
+.g41,
+.g43,
+.g45,
+.g47,
+.g50,
+.g52,
+.g54,
+.g56,
+.g57,
+.g59,
+.g61,
+.g63 {
+  background-color: #c0c0c0;
+}
+.pice{
+  font-size: 8vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+.pice:active{
+  cursor: grabbing;
+}
