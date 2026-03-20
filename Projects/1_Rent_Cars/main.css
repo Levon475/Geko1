@@ -129,3 +129,15 @@ ul,ol{
      font-size: var(--font-size-5);
     padding: 10px;
 }
+.scroll{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #a09a9abe;
+    color: var(--color-2);
+    position: absolute;
+    transform: translate(600px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
