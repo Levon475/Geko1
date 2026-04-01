@@ -14,6 +14,8 @@
     --color-7: #FBB7B7;
     --color-8: #A6A6A6;
     --color-9: #F2F2F2;
+    --color-10: #808080;
+    --color-11: #BFBFBF;
 
 
     /* Font Sizes  */
@@ -442,3 +444,129 @@ ul,ol{
     color: var(--color-5);
     font-weight: 400;
 }
+
+.wrap_contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 138px;
+}
+
+.b{
+    width: 215px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contact1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 80px;
+}
+.text11{
+    color: var(--color0-10);
+    font-weight: 500;
+    font-size: var(--font-size-2);
+    display: flex;
+    gap: 5px;
+}
+.icons_social{
+    display: flex;
+    color: var(--color-1);
+    gap: 15px;
+    margin-top: 100px;
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+}
+.t_i{
+    color: var(--color-1);
+    width: 30px;
+    height: 30px;
+}
+.contact2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.map{
+    width: 610px;
+    height: 447px;
+}
+
+.texts_say{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cards_say{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-area: " ";
+    gap: 20px;
+}
+.nshan1{
+    display: flex;
+    color: var(--color-1);
+    font-size: 30px;
+    gap: 100px;
+    
+}
+
+.aranzin{
+    color: var(--color-5);
+}
+
+.texti{
+    color: var(--color-5);
+    font-size: var(--font-size-5);
+    font-weight: 500;
+    max-width: 400px;
+    margin-top: 15px;
+}
+
+.Mel > img{
+
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+
+}
+
+.person11{
+    display: flex;
+    gap: 30px;
+}
+
+.Melinda_texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.txt55{
+    font-size: var(--font-size-13);
+    color: var(--color-5);
+    font-weight: 400;
+}
+
+.txt56{
+    font-size: var(--font-size-5);
+    color: var(--color-11);
+    font-weight: 400;
+}
+
