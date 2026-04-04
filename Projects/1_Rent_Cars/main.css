@@ -191,7 +191,7 @@ ul,ol{
 .three{
     color: var(--color-8);
     font-size: var(--font-size-12);
-    padding: 10px;
+    padding-bottom: 30px;
     gap: 10px;
     font-weight: 400;
 }
@@ -276,11 +276,12 @@ ul,ol{
     background:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url(/Projects/1_Rent_Cars/image1/Services_background.jpg) no-repeat center/cover;
     width: 100%;
     max-height: 847px;
-    padding: 10px 0px 100px 0px;
+    padding: 30px 0px 100px 0px;
     
 }
 .container_Services {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 .texts_Services{
@@ -288,7 +289,7 @@ ul,ol{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 110px;
+    
 }
 
 .Services_mek{
@@ -297,7 +298,7 @@ ul,ol{
 
     align-items: center;
     gap: 17px;
-    margin-top: 50px;
+    
    
     
 }
@@ -308,7 +309,6 @@ ul,ol{
     
     width: 300px;
     height: 501px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -374,7 +374,7 @@ ul,ol{
 .button_1{
     background-color: var(--color-2);
     color:  var( --color-5);
-    padding: 15px;
+   
 }
 
 .person{
@@ -386,7 +386,8 @@ ul,ol{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 50px;
+    /* margin-top: 100px; */
 }
 
 .wrap_menu{
@@ -400,7 +401,7 @@ ul,ol{
     ;
 
     gap: 200px;
-    margin-top: 50px;
+    padding-top: 50px;;
 }
 
 .menu1 {
@@ -468,7 +469,7 @@ ul,ol{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 80px;
+    padding-top: 50px;
 }
 .text11{
     color: var(--color0-10);
@@ -481,7 +482,7 @@ ul,ol{
     display: flex;
     color: var(--color-1);
     gap: 15px;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .icon1{
     width: 30px;
@@ -508,7 +509,7 @@ ul,ol{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    padding-top: 50px;
 }
 
 .cards_say{
@@ -535,7 +536,7 @@ ul,ol{
     font-size: var(--font-size-5);
     font-weight: 500;
     max-width: 400px;
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .Mel > img{
@@ -567,6 +568,7 @@ ul,ol{
     font-size: var(--font-size-5);
     color: var(--color-11);
     font-weight: 400;
+    padding-bottom: 50px;
 }
 
 .subscribe{
@@ -576,9 +578,8 @@ ul,ol{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    padding: 50px 417px;
-}
+    padding-top: 50px;
+    }
 
 .bb{
     width: 117px;
@@ -588,11 +589,12 @@ ul,ol{
 .input{
     display: flex;
     gap: 13px;
-    margin-top: 13px;
+    padding-top: 13px;
 }
 .input > input{
     border: none;
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
     height: 55px;
 }
 
@@ -655,3 +657,21 @@ color: var(--color-8);
     color: var(--color-1);
 }
 
+@media (max-width: 768px ){
+
+    .container{
+        width: 90%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three{
+    padding: 0 10px 10px 10px  ;
+
+    }
+}
+ 
