@@ -376,6 +376,7 @@ ul,ol{
 .button_1{
     background-color: var(--color-2);
     color:  var( --color-5);
+    padding: 15px;
    
 }
 
@@ -675,5 +676,31 @@ color: var(--color-8);
     padding: 0 10px 10px 10px  ;
 
     }
+
+    .Services_mek{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nkarn, .nkarn1, .nkarn2{
+
+         width: 150px;
+         height: 200px;
+         
+    }
+
+    .price{
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .in{
+        font-size: 20px;
+    }
+
+    .banali{
+        font-size: 30px;
+    }
+  
 }
  
