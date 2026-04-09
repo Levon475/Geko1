@@ -1,5 +1,12 @@
-console.log("Hello World!")
-alert("Tnanyiny kaneq")
-prompt("Tnayiny kaneq ?")
-confirm(" Tnayinnery kanes ")
-let x = "Soxomon"
+/* let admin;
+let name = "John";
+admin = name ;
+alert ( admin );
+
+let Eart;
+let Yor_name;
+
+ */
+
+let name = prompt ("What is your name", "Levon");
+alert (` Yor name is ${name}`);
