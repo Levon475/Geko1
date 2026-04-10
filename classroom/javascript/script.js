@@ -1,12 +1,19 @@
-/* let admin;
-let name = "John";
-admin = name ;
-alert ( admin );
+let userName = prompt("Enter your Login", "");
 
-let Eart;
-let Yor_name;
+if (userName === "Admin") {
+    
+    let pass = prompt("Enter your password", "");
 
- */
+    if (pass === "Master") {
+        alert("Welcome!");
+    } else if (pass === "" || pass === null) {
+        alert("Canceled");
+    } else {
+        alert("Wrong password");
+    }
 
-let name = prompt ("What is your name", "Levon");
-alert (` Yor name is ${name}`);
+} else if (userName === "" || userName === null) {
+    alert("Canceled");
+} else {
+    alert("I don't know you");
+}
