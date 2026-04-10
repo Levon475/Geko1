@@ -277,6 +277,7 @@ ul,ol{
     width: 100%;
     max-height: 847px;
     padding: 30px 0px 100px 0px;
+    flex-direction: column;
     
 }
 .container_Services {
@@ -293,6 +294,7 @@ ul,ol{
 }
 
 .Services_mek{
+    
     display: flex;  
     padding: 0 0 50px 70px;
 
