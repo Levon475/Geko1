@@ -1,23 +1,26 @@
-const ball = document.getElementById(`curs`)
-let mouseX = 0
-let mouseY = 0
-let ballX = 0
-let ballY = 0
-
-window.addEventListener(`mousemove`, function(e) {
-
-    mouseX = e.clientX
-    mouseY = e.clientY
+class Kendani {
+        constructor (anun){
+            this.anun = anun
+        }
+        
+        
+    }
 
 
-})
+    class Dzi extends Kendani {
+            constructor (anun ,tariq , cexatesak ){
+                super(anun)
+                this.tariq = tariq
+                this.cexatesak = cexatesak
+            }
 
-function animate() {
-    ballX +=  (mouseX - ballX) * 0.1
-    ballY +=  (mouseY - ballY) * 0.1
+            tpel(){
+                console.log(`${this.anun}y kendanu anun e um tariqy ${this.tariq} e isk cexatesaky ${this.cexatesak} `)
+            }
 
-    ball.style.transform = `translate(${ballX}px, ${ballY}px)`;
-    requestAnimationFrame(animate)
-}
+    }
 
-requestAnimationFrame(animate)
+
+    const pony = new Dzi(`bucefal`,3,`pony`)
+
+    pony.tpel()
