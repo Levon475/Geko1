@@ -16,7 +16,7 @@ function calculateOrderTotal(order){
     return total;
 }
 
-function getUserPendingOrders(oredrs, username){
+function getUserPendingOrders(orders, username){
 
     let x = orders.filter(order => {
         return order.user === username && order.status === "pending";
@@ -35,10 +35,40 @@ function getTotalRevenue(orders) {
       return y;
 }
 
+let groups = {}
+let totals = {}
+orders.forEach(order => { 
+
+    let userName = order.user
+    if (!groups[userName]) { 
+    groups[userName] = []
+    }
+
+    groups[userName].push(order)
+    
+    
+    if (!totals[order.user]) { totals[order.user] = 0; }
+    if (order.status === "completed") { 
+
+    totals[order.user] += calculateOrderTotal(order);
+    
+}
+    
+});
+
+
+let usersArray = Object.keys(totals).map(name => {
+    return { user: name, total: totals[name] };
+});
+
+usersArray.sort((a, b) => b.total - a.total)
+
 
 const firstOrderTotal = calculateOrderTotal(orders[0]);
 console.log(firstOrderTotal);
-const ivanOrders = getUserPendingOrders("pending","Ivan")
+const ivanOrders = getUserPendingOrders(orders,"Ivan")
 console.log(ivanOrders)
 const Total = getTotalRevenue(orders)
 console.log(Total);
+console.log(groups);
+console.log(usersArray.slice(0, 3))
