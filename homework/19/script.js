@@ -16,6 +16,29 @@ function calculateOrderTotal(order){
     return total;
 }
 
+function getUserPendingOrders(oredrs, username){
+
+    let x = orders.filter(order => {
+        return order.user === username && order.status === "pending";
+    })
+    return x;
+}
+
+function getTotalRevenue(orders) {
+
+    let y = 0
+    const completedOrders = orders.filter(order => order.status === "completed");
+
+   completedOrders.forEach(order => {
+        y += calculateOrderTotal(order);
+    });
+      return y;
+}
+
 
 const firstOrderTotal = calculateOrderTotal(orders[0]);
 console.log(firstOrderTotal);
+const ivanOrders = getUserPendingOrders("pending","Ivan")
+console.log(ivanOrders)
+const Total = getTotalRevenue(orders)
+console.log(Total);
