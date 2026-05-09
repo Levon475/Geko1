@@ -1,0 +1,24 @@
+.btn{
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.outline{
+    background: none;
+    border: 1px solid #fff;
+}
+
+.empty{
+    background: none;
+    border: none;
+}
+
+.fill{
+    background: #fff;
+    border: none;
+    color: #222;
+}
